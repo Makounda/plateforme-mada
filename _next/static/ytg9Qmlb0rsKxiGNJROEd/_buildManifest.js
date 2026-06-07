@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/ProjetMada//_next/:path+",
-        "destination": "/ProjetMada/_next/:path+"
+        "source": "/plateforme-mada//_next/:path+",
+        "destination": "/plateforme-mada/_next/:path+"
       }
     ],
     "fallback": []
