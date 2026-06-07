@@ -2,20 +2,28 @@
   "name": "mon-app",
   "version": "0.1.0",
   "private": true,
+
+  "homepage": "https://Makounda.github.io/ProjetMada",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "export": "next build",
+    "deploy": "gh-pages -d out"
   },
+
   "dependencies": {
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
+
   "devDependencies": {
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.2.6"
+    "eslint-config-next": "16.2.6",
+    "gh-pages": "^6.3.0"
   }
 }
